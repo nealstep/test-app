@@ -12,10 +12,6 @@
 
     <link rel="stylesheet" href="assets/css/app.css" type="text/css" 
 	  media="screen" />
-    <script src="phonegap.js" type="text/javascript" charset="utf-8"></script>
-    <script src="assets/js/app.js" type="text/javascript" 
-	    charset="utf-8">
-    </script>
     <script type="text/javascript" charset="utf-8">
       $( document ).bind( "mobileinit", function() {
       // Make your jQuery Mobile framework configuration changes here!
@@ -87,6 +83,13 @@
 	</div>
       </div>
     </div>
+
+    <script src="phonegap.js" type="text/javascript" charset="utf-8"></script>
+    <script src="assets/js/app.js" type="text/javascript" charset="utf-8">
+    </script>
+    <script type="text/javascript" charset="utf-8">
+      app.initialize();
+    </script>
   </body>
 </html>
 
